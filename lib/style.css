@@ -1,0 +1,300 @@
+html {
+  border: 6px solid black;
+}
+
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    background-color: blueviolet;
+    border: 4px solid rgb(230, 19, 107);
+}
+
+.tex {
+  border: 4px solid rgb(212, 78, 123);
+  
+}
+
+img {
+    border: 2px solid black;
+    width: 350px;
+    height: 400px;
+    margin: 15px;
+    /* probably dont need padding */
+}
+
+h3 {
+  display: inline;
+}
+
+/*button styling*/
+.fed {
+    background-color: orange;
+    color: yellow;
+    /* border: 1px solid red; */
+    margin: 10px; /* up or down with only 1 parameter */
+    padding: 5px; /* space around button */
+    margin-left: 110px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.superfed {
+  background-color: orange;
+  color: yellow;
+  border: 3px solid silver;
+  margin: 20px;
+  margin-left: 70px;
+  padding: 6px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.rest {
+    background-color: blue;
+    color: lightblue;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.superrest {
+  background-color: blue;
+  color: lightblue;
+  border: 3px solid silver;
+  margin: 20px;
+  padding: 6px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.play {
+    background-color: lightcoral;
+    color: #df1b94;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.superplay {
+  background-color: lightcoral;
+  color: #df1b94;
+  border: 3px solid silver;
+  margin: 20px;
+  padding: 6px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.superres {
+  background-color: darkgreen;
+  color: chartreuse;
+  border: 3px solid gold;
+  margin: 20px;
+  padding: 6px;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.ded {
+    background-color: black;
+    color: gray;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.light {
+  background-color: rgb(17, 17, 17);
+  color: darkcyan;
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* .buttons {
+  margin-left: 3px;
+} div doesnt wanna do anything */
+
+
+ /* .transform {
+    background-color: thistle;
+    transform: translate(100px, 100px) /* this is supposed to do something
+    transform: rotate(45 deg) this too
+    transform: skew(20 deg)
+    transform: scale(.2)
+    transform: skew(10deg) rotate(45deg) translate(50px, 50px) scale(.5);
+  } */
+  
+  /*************************
+  * Transition
+  *************************/
+  
+  /* .transition {
+    background: red;
+  }
+  
+  .transition:hover {
+    background: blue;
+  }
+  
+  /*************************
+  * Animation
+  *************************/
+  
+  /* .animation {
+    background: black;
+    position: relative;
+  } */
+  
+  
+  
+  /*************************
+  * Example Animations Below 
+  *************************/
+  
+  /*simple start*/
+  /* @keyframes black-to-white {
+    0% {
+      background: black;
+    }
+    100% {
+      background: ghostwhite;
+    }
+  } */
+  
+  /*just colors*/
+  /* @keyframes rainbow {
+    0% {
+      background: black;
+    }
+    10% {
+      background: crimson;
+    }
+    25% {
+      background: hotpink;
+    }
+    30% {
+      background: coral;
+    }
+    40% {
+      background: lightyellow;
+    }
+    50% {
+      background: palegreen;
+    }
+    60% {
+      background: mediumaquamarine;
+    }
+    75% {
+      background: steelblue;
+    }
+    80% {
+      background: darkviolet;
+    }
+    90% {
+      background: black;
+    }
+    100% {
+      background: ghostwhite;
+    }
+  } */
+  
+  /*colors and movement*/
+  /* @keyframes rainbow-move {
+    0% {
+      background: black;
+      left: 0%;
+      top: 0%;
+    }
+    10% {
+      background: crimson;
+    }
+    25% {
+      background: hotpink;
+      left: 75%;
+      top: 0px;
+    }
+    30% {
+      background: coral;
+    }
+    40% {
+      background: lightyellow;
+    }
+    50% {
+      background: palegreen;
+      left: 75%;
+      top: 10em;
+    }
+    60% {
+      background: mediumaquamarine;
+    }
+    75% {
+      background: steelblue;
+      left: 0%;
+      top: 10em;
+    }
+    80% {
+      background: darkviolet;
+    }
+    90% {
+      background: black;
+    }
+    100% {
+      background: ghostwhite;
+      left: 0px;
+      top: 0px;
+    }
+  }
+  /*colors, movement and rotation*/
+  /* @keyframes rainbow-move-change {
+    0% {
+      background: black;
+      left: 0%;
+      top: 0%;
+    }
+    10% {
+      background: crimson;
+    }
+    25% {
+      background: hotpink;
+      left: 75%;
+      top: 0px;
+    }
+    30% {
+      background: coral;
+    }
+    40% {
+      background: lightyellow;
+    }
+    50% {
+      background: palegreen;
+      left: 75%;
+      top: 10em;
+      transform: rotate(600deg);
+    }
+    60% {
+      background: mediumaquamarine;
+    }
+    75% {
+      background: steelblue;
+      left: 0%;
+      top: 10em;
+      border-radius: 100%;
+    }
+    80% {
+      background: darkviolet;
+    }
+    90% {
+      background: black;
+    }
+    100% {
+      background: ghostwhite;
+      left: 0px;
+      top: 0px;
+    }
+  } */ 
